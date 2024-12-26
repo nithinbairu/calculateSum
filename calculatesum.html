@@ -1,0 +1,17 @@
+<html>
+    <script>
+        function sum(){
+            const a=document.getElementById("first").value;
+            const b=document.getElementById("second").value;
+            const element=document.getElementById("finalsum");
+            element.innerHTML=a+b;
+            
+        }
+    </script>
+    <body>
+        <input id="first" type="text" placeholder="Enter First Number"></input> <br></br>
+        <input id="second" type="text" placeholder="Enter Second Number"></input> <br></br>
+        <button onclick="sum()">Calculate Sum</button> <br></br>
+        <div id="finalsum"></div>
+    </body>
+</html>
